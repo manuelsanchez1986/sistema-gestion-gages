@@ -4,7 +4,7 @@ Este proyecto tiene como objetivo desarrollar una aplicación para la gestión d
 
 Propósito
 Brindar una solución moderna, sencilla y funcional que permita:
--
+-Hello para Travis
 - Registrar y consultar información de calibración.
 - Filtrar gages próximos a vencer.
 - Garantizar trazabilidad y control metrológico.
