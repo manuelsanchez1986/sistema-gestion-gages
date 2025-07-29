@@ -4,39 +4,45 @@ Este proyecto tiene como objetivo desarrollar una aplicación para la gestión d
 
 Propósito
 Brindar una solución moderna, sencilla y funcional que permita:
--Hello para Travis
-- Registrar y consultar información de calibración.
-- Filtrar gages próximos a vencer.
-- Garantizar trazabilidad y control metrológico.
-- Evitar el uso de gages vencidos mediante alertas visuales.
-- Reforzar la seguridad mediante autenticación de usuario.
+
+* Registrar y consultar información de calibración.
+* Filtrar gages próximos a vencer.
+* Garantizar trazabilidad y control metrológico.
+* Evitar el uso de gages vencidos mediante alertas visuales.
+* Reforzar la seguridad mediante autenticación de usuario.
 
 Funcionalidades principales
-- Inicio de sesión con usuario y contraseña.
-- Alta masiva de gages mediante archivo Excel estructurado.
-- Registro manual de datos clave: código, cliente, área, responsable, fecha de calibración.
-- Cálculo automático de fecha de vencimiento.
-- Consulta y filtrado de gages por vencimiento.
-- Respaldo y almacenamiento local en archivo Excel.
-- Interfaz sencilla y ligera compatible con Windows 10 o superior.
+
+* Inicio de sesión con usuario y contraseña.
+* Alta masiva de gages mediante archivo Excel estructurado.
+* Registro manual de datos clave: código, cliente, área, responsable, fecha de calibración.
+* Cálculo automático de fecha de vencimiento.
+* Consulta y filtrado de gages por vencimiento.
+* Respaldo y almacenamiento local en archivo Excel.
+* Interfaz sencilla y ligera compatible con Windows 10 o superior.
 
   Requisitos técnicos
-- Java 8+
-- NetBeans 12.2 o superior
-- Microsoft Excel (.xlsx)
-- Windows 10 o superior
 
-Seguridad
-El sistema requiere autenticación con usuario y contraseña para garantizar que solo personal autorizado tenga acceso al registro y consulta de información metrológica.
+* Java 8+
+* NetBeans 12.2 o superior
+* Microsoft Excel (.xlsx)
+* Windows 10 o superior
 
-Estado del proyecto
-En desarrollo  
-Sprint 1: Implementación de inicio de sesión, carga masiva y registro manual.
+  Seguridad
+  El sistema requiere autenticación con usuario y contraseña para garantizar que solo personal autorizado tenga acceso al registro y consulta de información metrológica.
 
-Autor
-**Manuel Aarón Sánchez Gutiérrez**  
-Metrologista – AUMA Chihuahua  
-Correo: al03053351@tecmilenio.mx / manuel.sanchez@bocar.com
+  Estado del proyecto
+  En desarrollo  
+  Sprint 1: Implementación de inicio de sesión, carga masiva y registro manual.
 
-Licencia
-Este proyecto se utiliza con fines educativos. Para uso comercial o industrial, contactar con el autor.
+  Autor
+  **Manuel Aarón Sánchez Gutiérrez**  
+  Metrologista – AUMA Chihuahua  
+  Correo: al03053351@tecmilenio.mx / manuel.sanchez@bocar.com
+
+  Licencia
+  Este proyecto se utiliza con fines educativos. Para uso comercial o industrial, contactar con el autor.
+
+  "Probando integración con Travis CI"
+
+"Probando integraci�n con Travis CI" 
