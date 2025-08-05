@@ -39,7 +39,8 @@ Se desarrolló una aplicación que permite:
 ## Arquitectura
 Esta se basa en el patrón cliente-servidor. El sistema está construido en Java utilizando NetBeans, con pruebas automatizadas en JUnit. El repositorio de código está alojado en GitHub, y se integran Actions de GitHub para validación automática. El diseño considera despliegue local con posibilidad futura de migración a la nube.
 
-![Arquitectura](docs/arquitectura.png)
+<img width="730" height="492" alt="image" src="https://github.com/user-attachments/assets/51509a06-2af2-4587-8fc6-de29274f2345" />
+
 
 ## Propósito
 Brindar una solución moderna, sencilla y funcional que permita:
