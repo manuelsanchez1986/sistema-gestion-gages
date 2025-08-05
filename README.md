@@ -1,9 +1,25 @@
-Sistema de Gestión de Gages para Control de Calibración
-Este proyecto tiene como objetivo desarrollar una aplicación para la gestión de instrumentos de medición (gages) en la empresa AUMA Chihuahua S.A. de C.V., específicamente para el área de metrología. Surge ante la necesidad de sustituir el sistema anterior que dejó de ser compatible con versiones actuales de Windows.
+# Sistema de Gestión de Gages para Control de Calibración
 
-Problema identificado
-El sistema anterior ya no es funcional con las actualizaciones recientes de Windows, dificultando el registro, trazabilidad y consulta de los instrumentos de medición. Además, el proceso era manual, lo cual incrementaba errores y retrasos.
+## Tabla de Contenidos
+1. [Descripción del proyecto](#descripción-del-proyecto)
+2. [Problema identificado](#problema-identificado)
+3. [Solución desarrollada](#solución-desarrollada)
+4. [Arquitectura](#arquitectura)
+5. [Propósito del sistema](#propósito-del-sistema)
+6. [Funcionalidades principales](#funcionalidades-principales)
+7. [Requisitos técnicos](#requisitos-técnicos)
+8. [Seguridad](#seguridad)
+9. [Estado del proyecto](#estado-del-proyecto)
+10. [Autor y contacto](#autor-y-contacto)
+11. [Licencia](#licencia)
 
+## Descripción del proyecto
+Sistema de Gestión de Gages para Control de Calibración. Este proyecto tiene como objetivo desarrollar una aplicación para la gestión de instrumentos de medición (gages) en la empresa AUMA Chihuahua S.A. de C.V., específicamente para el área de metrología. Surge ante la necesidad de sustituir el sistema anterior que dejó de ser compatible con versiones actuales de Windows.
+
+## Problema identificado
+El sistema anterior ya no es funcional con las actualizaciones recientes de Windows, dificultando el registro, trazabilidad y consulta de los instrumentos de medición. Además, el proceso era manual, lo cual incrementaba errores y retrabajos.
+
+## Solución desarrollada
 Se desarrolló una aplicación que permite:
 - Registro y consulta de información de calibración.
 - Alta masiva de gages vía archivos Excel.
@@ -12,12 +28,12 @@ Se desarrolló una aplicación que permite:
 - Generación de reportes.
 - Integración con GitHub para gestión de código.
 
-Arquitectura
+## Arquitectura
 Esta se basa en el patrón cliente-servidor. El sistema está construido en Java utilizando NetBeans, con pruebas automatizadas en JUnit. El repositorio de código está alojado en GitHub, y se integra con Actions de GitHub para validación automática. El diseño considera despliegue local con posibilidad futura de migración a la nube.
-<img width="730" height="492" alt="image" src="https://github.com/user-attachments/assets/2b321eb1-5dd9-4cf1-bddc-c686cf9b0aec" />
 
+![Arquitectura](https://github.com/manuelsanchez1986/sistema-gestion-gages/assets/README-arquitectura.png)
 
-Propósito
+## Propósito del sistema
 Brindar una solución moderna, sencilla y funcional que permita:
 - Registrar y consultar información de calibración.
 - Filtrar gages próximos a vencer.
@@ -25,7 +41,7 @@ Brindar una solución moderna, sencilla y funcional que permita:
 - Evitar el uso de gages vencidos mediante alertas visuales.
 - Reforzar la seguridad mediante autenticación de usuario.
 
-Funcionalidades principales
+## Funcionalidades principales
 - Inicio de sesión con usuario y contraseña.
 - Alta masiva de gages mediante archivo Excel estructurado.
 - Registro manual de datos clave: código, cliente, área, responsable, fecha de calibración.
@@ -34,23 +50,23 @@ Funcionalidades principales
 - Respaldo y almacenamiento local en archivo Excel.
 - Interfaz sencilla y ligera compatible con Windows 10 o superior.
 
-  Requisitos técnicos
+## Requisitos técnicos
 - Java 8+
 - NetBeans 12.2 o superior
 - Microsoft Excel (.xlsx)
 - Windows 10 o superior
 
-Seguridad
+## Seguridad
 El sistema requiere autenticación con usuario y contraseña para garantizar que solo personal autorizado tenga acceso al registro y consulta de información metrológica.
 
-Estado del proyecto
+## Estado del proyecto
 En desarrollo  
-Sprint 1: Implementación de inicio de sesión, carga masiva y registro manual.
+**Sprint 1:** Implementación de inicio de sesión, carga masiva y registro manual.
 
-Autor
+## Autor y contacto
 **Manuel Aarón Sánchez Gutiérrez**  
 Metrologista – AUMA Chihuahua  
 Correo: al03053351@tecmilenio.mx / manuel.sanchez@bocar.com
 
-Licencia
+## Licencia
 Este proyecto se utiliza con fines educativos. Para uso comercial o industrial, contactar con el autor.
