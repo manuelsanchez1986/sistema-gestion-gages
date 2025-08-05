@@ -30,7 +30,7 @@ El sistema anterior ya no es funcional con las actualizaciones recientes de Wind
 ## Solución propuesta
 Se desarrolló una aplicación que permite:
 - Registro y consulta de información de calibración.
-- Alta masiva de gages vía archivos Excel.
+- Alta masiva de gages vía archivos Excel y MySQL.
 - Filtro por fechas de vencimiento.
 - Control de usuarios y trazabilidad.
 - Generación de reportes.
@@ -82,7 +82,7 @@ Brindar una solución moderna, sencilla y funcional que permita:
 ### a. ¿Cómo instalar el ambiente de desarrollo?
 1. Descargar e instalar JDK 8+.
 2. Descargar NetBeans 12.2 o superior.
-3. Clonar el repositorio con `git clone https://github.com/tuusuario/sistema-gestion-gages.git`
+3. Clonar el repositorio con `git clone https://github.com/manuelsanchez1986/sistema-gestion-gages.git`
 4. Abrir el proyecto en NetBeans y configurar el servidor GlassFish.
 5. Crear la base de datos (MySQL o PostgreSQL) y configurar la conexión JDBC.
 
