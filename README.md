@@ -1,25 +1,27 @@
-# Sistema de Gestión de Gages para Control de Calibración
+# Sistema de Gestión de Gages
 
-## Tabla de Contenidos
-1. [Descripción del proyecto](#descripción-del-proyecto)
-2. [Problema identificado](#problema-identificado)
-3. [Solución desarrollada](#solución-desarrollada)
-4. [Arquitectura](#arquitectura)
-5. [Propósito del sistema](#propósito-del-sistema)
-6. [Funcionalidades principales](#funcionalidades-principales)
-7. [Requisitos técnicos](#requisitos-técnicos)
-8. [Seguridad](#seguridad)
-9. [Estado del proyecto](#estado-del-proyecto)
-10. [Autor y contacto](#autor-y-contacto)
-11. [Licencia](#licencia)
-
-## Descripción del proyecto
 Sistema de Gestión de Gages para Control de Calibración. Este proyecto tiene como objetivo desarrollar una aplicación para la gestión de instrumentos de medición (gages) en la empresa AUMA Chihuahua S.A. de C.V., específicamente para el área de metrología. Surge ante la necesidad de sustituir el sistema anterior que dejó de ser compatible con versiones actuales de Windows.
 
-## Problema identificado
-El sistema anterior ya no es funcional con las actualizaciones recientes de Windows, dificultando el registro, trazabilidad y consulta de los instrumentos de medición. Además, el proceso era manual, lo cual incrementaba errores y retrabajos.
+## Tabla de contenidos
+1. [Descripción](#descripción)
+2. [Problema identificado](#problema-identificado)
+3. [Solución propuesta](#solución-propuesta)
+4. [Arquitectura](#arquitectura)
+5. [Propósito](#propósito)
+6. [Funcionalidades principales](#funcionalidades-principales)
+7. [Requerimientos](#requerimientos)
+8. [Seguridad](#seguridad)
+9. [Estado del proyecto](#estado-del-proyecto)
+10. [Autor](#autor)
+11. [Licencia](#licencia)
 
-## Solución desarrollada
+## Descripción
+Aplicación desarrollada en Java con interfaz gráfica para el registro, trazabilidad y control de calibración de instrumentos de medición (gages), compatible con sistemas operativos Windows modernos.
+
+## Problema identificado
+El sistema anterior ya no es funcional con las actualizaciones recientes de Windows, dificultando el registro, trazabilidad y consulta de los instrumentos de medición. Además, el proceso era manual, lo cual incrementaba errores y retrasos.
+
+## Solución propuesta
 Se desarrolló una aplicación que permite:
 - Registro y consulta de información de calibración.
 - Alta masiva de gages vía archivos Excel.
@@ -29,11 +31,11 @@ Se desarrolló una aplicación que permite:
 - Integración con GitHub para gestión de código.
 
 ## Arquitectura
-Esta se basa en el patrón cliente-servidor. El sistema está construido en Java utilizando NetBeans, con pruebas automatizadas en JUnit. El repositorio de código está alojado en GitHub, y se integra con Actions de GitHub para validación automática. El diseño considera despliegue local con posibilidad futura de migración a la nube.
+Esta se basa en el patrón cliente-servidor. El sistema está construido en Java utilizando NetBeans, con pruebas automatizadas en JUnit. El repositorio de código está alojado en GitHub, y se integran Actions de GitHub para validación automática. El diseño considera despliegue local con posibilidad futura de migración a la nube.
 
-![Arquitectura](https://github.com/manuelsanchez1986/sistema-gestion-gages/assets/README-arquitectura.png)
+![Arquitectura](docs/arquitectura.png)
 
-## Propósito del sistema
+## Propósito
 Brindar una solución moderna, sencilla y funcional que permita:
 - Registrar y consultar información de calibración.
 - Filtrar gages próximos a vencer.
@@ -50,20 +52,35 @@ Brindar una solución moderna, sencilla y funcional que permita:
 - Respaldo y almacenamiento local en archivo Excel.
 - Interfaz sencilla y ligera compatible con Windows 10 o superior.
 
-## Requisitos técnicos
-- Java 8+
-- NetBeans 12.2 o superior
-- Microsoft Excel (.xlsx)
-- Windows 10 o superior
+## Requerimientos
+
+### a. Servidores de aplicación, web, bases de datos, etc.
+- **Servidor de Aplicaciones:** GlassFish Server (Java EE 8)
+- **Servidor Web:** Integrado con GlassFish
+- **Base de Datos:** MySQL o PostgreSQL (local o en red LAN)
+- **Repositorio de código:** GitHub
+
+### b. Paquetes adicionales
+- **JDK:** Oracle JDK u OpenJDK 8+
+- **JUnit:** Para pruebas automatizadas
+- **Bibliotecas de Apache POI:** Para lectura/escritura de archivos Excel (.xlsx)
+- **JDBC:** Conector de base de datos correspondiente (MySQL Connector/J o PostgreSQL JDBC)
+
+### c. Versión de Java, etc.
+- **Java:** Versión 8 o superior
+- **NetBeans:** Versión 12.2 o superior
+- **SO compatible:** Windows 10 o superior
+- **Office:** Microsoft Excel para manejo de archivos `.xlsx`
 
 ## Seguridad
 El sistema requiere autenticación con usuario y contraseña para garantizar que solo personal autorizado tenga acceso al registro y consulta de información metrológica.
 
 ## Estado del proyecto
-En desarrollo  
-**Sprint 1:** Implementación de inicio de sesión, carga masiva y registro manual.
+**En desarrollo**
 
-## Autor y contacto
+Sprint 1: Implementación de inicio de sesión, carga masiva y registro manual.
+
+## Autor
 **Manuel Aarón Sánchez Gutiérrez**  
 Metrologista – AUMA Chihuahua  
 Correo: al03053351@tecmilenio.mx / manuel.sanchez@bocar.com
