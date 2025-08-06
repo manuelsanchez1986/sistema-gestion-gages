@@ -105,9 +105,58 @@ Brindar una solución moderna, sencilla y funcional que permita:
 ## Uso
 ### a. Sección de referencia para usuario final
 - Manual PDF y en línea describiendo paso a paso el uso del sistema, filtros y reportes.
+Este sistema permite a los usuarios registrar, consultar y filtrar información sobre instrumentos de medición (gages) de manera fácil.
+A continuación, se describe el uso básico paso a paso:
+
+1. Inicio de sesión
+Abre la aplicación desde el acceso directo o ejecutable .jar.
+Ingresa tu usuario y contraseña proporcionados por el administrador.
+Haz clic en "Iniciar sesión".
+
+2. Carga de gages desde Excel
+Ve al menú Archivo > Importar gages.
+Selecciona el archivo .xlsx con el formato establecido (código, cliente, área, etc.).
+Verifica los datos cargados y confirma el registro.
+
+3. Consulta de gages
+Usa la barra de búsqueda para localizar un gage por código o cliente.
+Aplica filtros por:
+Fecha de calibración
+Fecha de vencimiento
+Responsable
+
+4. Exportar reporte
+Ve a Archivo > Exportar.
+Elige formato de exportación (Excel o PDF).
+Se generará un archivo con todos los gages visibles en pantalla.
 
 ### b. Sección de referencia para usuario administrador
 - Manual de administración de usuarios, configuración de base de datos y respaldo.
+Gestión de usuarios
+Menú Administración > Usuarios.
+Puedes:
+Crear nuevos usuarios
+Asignar roles (usuario / administrador)
+Editar contraseñas
+Eliminar accesos
+
+2. Configuración de base de datos
+El archivo de configuración (config.properties) permite cambiar parámetros como:
+IP del servidor de base de datos
+Puerto
+Usuario y contraseña de la DB
+Asegúrate de reiniciar la aplicación tras realizar cambios.
+
+3. Respaldo de datos
+Ve a Administración > Exportar respaldo.
+Esto generará un archivo Excel con toda la base de datos actual.
+Se recomienda hacer respaldo semanal o antes de realizar cambios masivos.
+
+4. Supervisión de registros
+Desde el módulo de Historial puedes ver:
+Qué usuario modificó qué gage.
+Fecha y hora de cada operación.
+Cualquier error de carga o ingreso fallido.
 
 ## Contribución
 ### a. Guía de contribución para usuarios
