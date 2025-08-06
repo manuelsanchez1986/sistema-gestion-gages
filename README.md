@@ -171,10 +171,14 @@ Cualquier error de carga o ingreso fallido.
 - Validación antes del merge.
 
 ## Roadmap
-- Agregar autenticación con OAuth.
-- Migración a base de datos en la nube.
-- Interfaz web usando JSP o React.
-- Integración con microservicios para mantenimiento remoto.
+Estas son algunas funcionalidades que se planean agregar en futuras versiones del sistema:
+
+- Alertas automáticas por correo electrónico para gages próximos a vencer.
+- Historial de calibraciones por gage (con auditoría completa).
+- Implementación de dashboard con gráficas de control.
+- Soporte multiplataforma (versión web).
+- Backup automático de la base de datos al iniciar/cerrar sesión.
+- Soporte para escáner de código QR en el registro y búsqueda de gages.
 
 ## Seguridad
 El sistema requiere autenticación con usuario y contraseña para garantizar que solo personal autorizado tenga acceso al registro y consulta de información metrológica.
